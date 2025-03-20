@@ -1,17 +1,20 @@
 <div style="text-align: center">
-   <img src="https://raw.githubusercontent.com/nicolyjjang/brew-haven/main/src/assets/images/logo-readme.png" alt="Logo do Brew Haven para o README" style="width: 400px;">
+   <img src="src/assets/images/logo-readme.png" alt="Logo do Brew Haven para o README">
 
-   ![Build Status](https://img.shields.io/badge/in-progress-ae8b6c)
-   ![License](https://img.shields.io/badge/license-MIT-ae8b6c)
+![Build Status](https://img.shields.io/badge/in-progress-ae8b6c)
+![License](https://img.shields.io/badge/license-MIT-ae8b6c)
+
 </div>
 
-# Brew Haven ☕
+# Brew Haven
 
-**Brew Haven** é um site desenvolvido em Angular que simula uma cafeteria online. Ele inclui uma home, cardápio, página sobre e contato, e foi criado como parte de um projeto de aprendizado em desenvolvimento web.
+**Brew Haven** é um site desenvolvido em Angular que simula uma cafeteria online. Ele inclui uma home, cardápio,
+página sobre e contato, e foi criado como parte de um projeto de aprendizado em desenvolvimento web.
 
 ## Visão Geral
 
-O objetivo deste projeto é praticar o uso do Angular para criar um site funcional e responsivo. A estrutura inclui navegação entre páginas e exibição de conteúdo, com foco em boas práticas de desenvolvimento.
+O objetivo deste projeto é praticar o uso do Angular para criar um site funcional e responsivo. A estrutura inclui
+navegação entre páginas e exibição de conteúdo, com foco em boas práticas de desenvolvimento.
 
 ## Protótipo
 
@@ -35,10 +38,12 @@ O design do site foi criado no **Figma** para planejar a interface. Você pode c
 
 ## Melhorias Futuras
 
-- [ ] **Autenticação de Usuários**: Implementar login e registro com Auth0.
-- [ ] **Carrinho de Compras Simulado**: Adicionar funcionalidade de carrinho com NgRx.
-- [ ] **Avaliações e Comentários**: Permitir que os usuários avaliem produtos.
-- [ ] **Tema Escuro**: Adicionar opção de tema escuro.
+## Melhorias Futuras
+
+- [ ] **Autenticação de Usuários**: implementar login e registro com Auth0.
+- [ ] **Carrinho de Compras Simulado**: adicionar funcionalidade de carrinho com NgRx.
+- [ ] **Avaliações e Comentários**: permitir que os usuários avaliem produtos.
+- [ ] **Tema Escuro**: adicionar opção de tema escuro.
 
 ## Como Executar o Projeto Localmente
 
@@ -82,4 +87,4 @@ Este projeto foi criado usando o [Angular CLI](https://github.com/angular/angula
 - [Documentação do TypeScript](https://www.typescriptlang.org/docs/)
 - [Guia de Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
 
-<div style="margin-top: 30px; text-align: center">Desenvolvido com 🤎 por Nicoly Jang</div>
+<div style="text-align: center">Desenvolvido com 🤎 por Nicoly Jang</div>
