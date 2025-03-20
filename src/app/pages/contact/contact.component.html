@@ -1,1 +1,30 @@
-<p>contact works!</p>
+<app-header></app-header>
+
+<div class="content">
+  <img class="img-right" src="assets/images/coffee.png" alt="Grãos de Cafés" />
+  <div class="contact-wrapper">
+    <h2 class="title">Fale conosco</h2>
+    <p class="about-text">
+      Queremos ouvir você! Seja para tirar dúvidas, enviar sugestões ou
+      trabalhar conosco, estamos aqui para ajudar. Escolha a opção que melhor
+      combina com você:
+    </p>
+
+    <app-contact-us
+      title="Mande uma mensagem"
+      text="Tem alguma dúvida, sugestão ou feedback? Clique no botão abaixo para nos enviar uma mensagem. Gostaríamos de saber o que você pensa!"
+      btn="Envie sua mensagem"
+    >
+    </app-contact-us>
+
+    <app-contact-us
+      title="Trabalhe conosco"
+      text="Você ama café e adora trabalhar em um amibiente acolhedor e cheio de energia? Venha fazer parte do nosso time! "
+      btn="Envie seu currículo"
+    >
+    </app-contact-us>
+  </div>
+  <img class="img-left" src="assets/images/coffee.png" alt="Grãos de Cafés" />
+</div>
+
+<app-footer></app-footer>
