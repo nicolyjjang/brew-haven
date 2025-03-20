@@ -1,0 +1,42 @@
+<app-header></app-header>
+
+<div class="about-wrapper">
+  <h2 class="title">Conheça nossa história</h2>
+  <p class="about-text">
+    Bem vindo(a) ao Brew Haven, acreditamos que um café vai além da xícara. É
+    sobre momentos, conexões e cuidado com cada detalhe. Desde a escolha dos
+    grãos até a forma como servimos, tudo é feito com paixão e dedicação para
+    oferecer a você uma experiência única
+  </p>
+  <div class="detail">
+    <app-detail
+      image="assets/images/qualidade.png"
+      title="Grãos de qualidade premium"
+      text="Usamos grãos 100% arábica, selecionados entre os melhores produtores do mundo. "
+    >
+    </app-detail>
+    <app-detail
+      image="assets/images/materiais.png"
+      title="Máquinas de alta performance"
+      text="Nossos cafés são preparados com máquinas La Marzocco, conhecidas por sua precisão e qualidade."
+    >
+    </app-detail>
+    <app-detail
+      image="assets/images/machines.png"
+      title="Materiais especiais"
+      text="Servimos sua bebida em xícaras e copos resistentes para a agitação e a pressa do dia-a-dia."
+    >
+    </app-detail>
+  </div>
+  <div class="location">
+    <h2 class="title">Localização</h2>
+    <div class="map">
+      <iframe src="https://www.google.com/maps/d/embed?mid=1aE9K_S832YOweKNiwoE3k4-zs3_UB1I&ehbc=2E312F" width="640" height="480" frameborder="0" style="border:0"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</div>
+
+<app-footer></app-footer>
+
+<router-outlet></router-outlet>

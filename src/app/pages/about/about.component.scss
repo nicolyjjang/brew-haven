@@ -1,0 +1,21 @@
+.about-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-text{
+    max-width: 900px;
+    text-align: center;
+    color: #664e39;
+}
+
+.detail{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    background: linear-gradient(45deg, #e0c9a8 0%, #d1af82 86%);
+    padding: 30px 20px;
+    margin: 35px;
+    border-radius: 20px;
+}

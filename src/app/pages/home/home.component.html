@@ -1,0 +1,56 @@
+<app-header></app-header>
+
+<div class="content-principal">
+    <div class="wrap">
+        <figure>
+            <blockquote class="blockquote">
+              <p>Your haven for the perfect brew</p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+              Brew Haven
+            </figcaption>
+          </figure>
+          <div class="buttons">
+            <app-button text="Veja nossos produtos" sectionId="product"></app-button>
+            <app-button-outline text="Nossas Lojas" routePath="about"></app-button-outline>
+          </div>
+    </div>
+    <img src="assets/images/coffe-splash.png" alt="Café splash">
+</div>
+
+<div class="specials">
+    <h2 class="title" id="product">Descubra seu favorito</h2>
+    <div class="cards">
+        <app-card 
+            title="Café Au Lait"
+            price="R$ 12,00"
+            image="assets/images/cafe-au-lait.png">
+        </app-card>
+
+        <app-card 
+            title="Pink Paradise"
+            price="R$ 16,90"
+            image="assets/images/smoothie.png">
+        </app-card>
+
+        <app-card 
+            title="Strawberry Fizz"
+            price="R$ 14,50"
+            image="assets/images/italian-soda.png">
+        </app-card>
+
+        <app-card 
+            title="Cloudy Cocoa"
+            price="R$ 18,00"
+            image="assets/images/choco.png">
+        </app-card>
+    </div>
+</div>
+
+<div class="banner">
+    <app-banner></app-banner>
+</div>
+
+<app-footer></app-footer>
+
+<router-outlet></router-outlet>

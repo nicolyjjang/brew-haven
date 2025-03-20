@@ -1,0 +1,14 @@
+<div class="card" style="width: 14rem">
+  <img [src]="image" class="img-centered" alt="Bebida" />
+  <img
+    *ngIf="badgeImage"
+    [src]="badgeImage"
+    alt="Tipo de bebida (quente ou gelada)"
+    class="detail"
+  />
+  <div class="card-body">
+    <h5 class="card-title">{{ title }}</h5>
+    <p class="card-text">{{ price }}</p>
+    <a href="#" class="btn">Sobre o produto →</a>
+  </div>
+</div>

@@ -1,0 +1,141 @@
+{
+  "cafeQuente": [
+    {
+      "title": "Café Au Lait",
+      "price": "R$ 12,00",
+      "image": "assets/images/cafe-au-lait.png",
+      "badgeImage": "assets/images/detail-hot.png"
+    },
+    {
+      "title": "Café Expresso",
+      "price": "R$ 8,00",
+      "image": "assets/images/coffee-cup.png",
+      "badgeImage": "assets/images/detail-hot.png"
+    },
+    {
+      "title": "Cappuccino",
+      "price": "R$ 12,00",
+      "image": "assets/images/coffee-cup.png",
+      "badgeImage": "assets/images/detail-hot.png"
+    },
+    {
+      "title": "Mocha",
+      "price": "R$ 12,00",
+      "image": "assets/images/coffee-cup.png",
+      "badgeImage": "assets/images/detail-hot.png"
+    },
+    {
+      "title": "Macchiato",
+      "price": "R$ 14,00",
+      "image": "assets/images/coffee-cup.png",
+      "badgeImage": "assets/images/detail-hot.png"
+    },
+    {
+      "title": "Café Pingado",
+      "price": "R$ 9,00",
+      "image": "assets/images/coffee-cup.png",
+      "badgeImage": "assets/images/detail-hot.png"
+    },
+    {
+      "title": "Café Americano",
+      "price": "R$ 8,00",
+      "image": "assets/images/coffee-cup.png",
+      "badgeImage": "assets/images/detail-hot.png"
+    },
+    {
+      "title": "Latte",
+      "price": "R$ 10,00",
+      "image": "assets/images/coffee-cup.png",
+      "badgeImage": "assets/images/detail-hot.png"
+    },
+    {
+      "title": "Chá Preto",
+      "price": "R$ 11,00",
+      "image": "assets/images/coffee-cup.png",
+      "badgeImage": "assets/images/detail-hot.png"
+    }
+  ],
+  "cafeGelado": [
+    {
+      "title": "Affogato",
+      "price": "R$ 15,00",
+      "image": "assets/images/coffee-cup.png",
+      "badgeImage": "assets/images/detail-iced.png"
+    },
+    {
+      "title": "Frappuccino",
+      "price": "R$ 12,00",
+      "image": "assets/images/coffee-cup.png",
+      "badgeImage": "assets/images/detail-iced.png"
+    },
+    {
+      "title": "Cold Brew",
+      "price": "R$ 10,00",
+      "image": "assets/images/coffee-cup.png",
+      "badgeImage": "assets/images/detail-iced.png"
+    },
+    {
+      "title": "Iced Latte",
+      "price": "R$ 10,00",
+      "image": "assets/images/coffee-cup.png",
+      "badgeImage": "assets/images/detail-iced.png"
+    },
+    {
+      "title": "Matcha Latte",
+      "price": "R$ 14,00",
+      "image": "assets/images/coffee-cup.png",
+      "badgeImage": "assets/images/detail-iced.png"
+    },
+    {
+      "title": "Chá de Hibisco",
+      "price": "R$ 9,00",
+      "image": "assets/images/coffee-cup.png",
+      "badgeImage": "assets/images/detail-iced.png"
+    },
+    {
+      "title": "Iced Mocha",
+      "price": "R$ 12,00",
+      "image": "assets/images/coffee-cup.png",
+      "badgeImage": "assets/images/detail-iced.png"
+    },
+    {
+      "title": "Frappe",
+      "price": "R$ 14,00",
+      "image": "assets/images/coffee-cup.png",
+      "badgeImage": "assets/images/detail-iced.png"
+    },
+    {
+      "title": "Berry Brew",
+      "price": "R$ 10,00",
+      "image": "assets/images/coffee-cup.png",
+      "badgeImage": "assets/images/detail-iced.png"
+    }
+  ],
+  "paesBolos": [
+    { 
+        "title": "Bolo", 
+        "price": "R$ 10,00", 
+        "image": "assets/images/cake.png" 
+    },
+    { 
+        "title": "Cheesecake", 
+        "price": "R$ 15,29", 
+        "image": "assets/images/cheesecake.png" 
+    },
+    { 
+        "title": "Pão de Queijo", 
+        "price": "R$ 8,00", 
+        "image": "assets/images/pao-de-queijo.png" 
+    },
+    { 
+        "title": "Croissant", 
+        "price": "R$ 12,00", 
+        "image": "assets/images/croissant.png" 
+    },
+    { 
+        "title": "Panqueca", 
+        "price": "R$ 16,00", 
+        "image": "assets/images/pancake.png" 
+    }
+  ]
+}

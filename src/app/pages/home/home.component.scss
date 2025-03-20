@@ -1,0 +1,55 @@
+.content-principal{
+    display: flex;
+    flex-direction: row;
+    margin: 80px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.blockquote{
+    font-size: 2.75rem;
+    color: #5f3e2a;
+}
+
+.blockquote-footer{
+    color: #c0a389;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 130px;
+}
+
+@media (max-width: 992px){
+    .content-principal{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(2, 200px);
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 576px){
+    .cards{
+        grid-template-columns: repeat(1, 200px);
+    }
+}

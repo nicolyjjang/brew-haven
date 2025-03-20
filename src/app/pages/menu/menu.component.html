@@ -1,0 +1,46 @@
+<app-header></app-header>
+
+<div class="menu-wrapper">
+  <h2 class="title">Nosso cardápio</h2>
+  <div class="options">
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="custom-nav-link" 
+           (click)="updateTitle('Cafés e chás quentes', 'cafeQuente')"
+           [ngClass]="{ 'active': currentTitle === 'Cafés e chás quentes' }">
+           Cafés e chás quentes
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="custom-nav-link" 
+           (click)="updateTitle('Cafés e chás gelados', 'cafeGelado')"
+           [ngClass]="{ 'active': currentTitle === 'Cafés e chás gelados' }">
+           Cafés e chás gelados
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="custom-nav-link" 
+           (click)="updateTitle('Pães e bolos', 'paesBolos')"
+           [ngClass]="{ 'active': currentTitle === 'Pães e bolos' }">
+           Pães e bolos
+        </a>
+      </li>
+    </ul>
+  </div>
+  <h3 class="title-option">{{ currentTitle }}</h3>
+  <div class="cards-wrapper">
+    <div class="cards">
+      <app-card
+        *ngFor="let card of currentCards"
+        [title]="card.title"
+        [price]="card.price"
+        [image]="card.image"
+        [badgeImage]="card.badgeImage">
+      </app-card>
+    </div>
+  </div>
+</div>
+
+<app-footer></app-footer>
+
+<router-outlet></router-outlet>

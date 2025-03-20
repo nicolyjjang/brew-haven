@@ -1,0 +1,32 @@
+:host{ 
+    display: inline-block;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ae8b6c;
+    color: #ffffff;
+    font-size: 1.125rem;
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    transition: 1s;
+}
+
+.btn:hover{
+    background-color: transparent;
+    border: 2px solid #ae8b6c;
+    color: #ae8b6c;
+}
+
+@media (max-width: 992px){
+    .btn{
+        padding: 5px 15px;
+        font-size: 1rem;
+        font-weight: 400;
+        flex-wrap: wrap;
+    }
+}
