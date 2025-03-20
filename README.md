@@ -1,9 +1,7 @@
 <div style="text-align: center">
    <img src="src/assets/images/logo-readme.png" alt="Logo do Brew Haven para o README">
-
-![Build Status](https://img.shields.io/badge/in-progress-ae8b6c)
-![License](https://img.shields.io/badge/license-MIT-ae8b6c)
-
+  ![Build Status](https://img.shields.io/badge/in-progress-ae8b6c)
+  ![License](https://img.shields.io/badge/license-MIT-ae8b6c)
 </div>
 
 # Brew Haven
