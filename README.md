@@ -9,7 +9,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 - **Angular** 19.2.1
 - **TypeScript**  
-- **HTML5 & CSS3**  
+- **HTML5 e SCSS**  
 - **Bootstrap**  
 - **Figma**
 
