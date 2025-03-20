@@ -1,0 +1,10 @@
+<div class="content-wrap">
+  <h4>{{ title }}</h4>
+  <p class="text">{{ text }}</p>
+  <app-button
+    [text]="btn"
+    [pdfPath]="pdfPath"
+    [sectionId]="sectionId"
+    (onClick)="handleClick()">
+  </app-button>
+</div>
